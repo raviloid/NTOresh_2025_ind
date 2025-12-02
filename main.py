@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 INPUT_DIR = "/kaggle/input/dataset"
 WORKING_DIR = "/kaggle/working"
 
-SEEDS = [1, 1, 1]
+SEEDS = [2, 2, 2]
 
 COL_USER_ID = "user_id"
 COL_BOOK_ID = "book_id"
