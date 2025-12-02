@@ -166,6 +166,6 @@ preds = np.clip(preds, 0, 10)
 
 submission = test_set[[COL_USER_ID, COL_BOOK_ID]].copy()
 submission[COL_PREDICTION] = preds
-submission.to_csv(f"{WORKING_DIR}/submission_seed_31030.csv", index=False)
+submission.to_csv(f"{WORKING_DIR}/submission_seed_222.csv", index=False)
 
 print('Готово!!!')
