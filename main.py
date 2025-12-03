@@ -223,7 +223,7 @@ def main():
     cat_indices = [features.index(c) for c in cat_features if c in features]
     
     # Обучение одной модели
-    print(f"\n🌱 Обучение модели с seed = 2")
+    print(f"\n Обучение модели с seed")
     params = {
         "objective": "rmse",
         "metric": "rmse",
